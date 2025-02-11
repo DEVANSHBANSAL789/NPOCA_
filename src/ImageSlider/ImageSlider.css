@@ -1,0 +1,22 @@
+.slider {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade {
+  opacity: 0;
+}
+
+.active {
+  opacity: 1;
+}

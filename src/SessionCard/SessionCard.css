@@ -1,0 +1,80 @@
+/* Card Container */
+.card-container {
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.7);
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+/* Header Section */
+.card-header {
+  background-color: #172b4d;
+  color: white;
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.card-date,
+.card-time {
+  font-size: 15px;
+  margin-top: 8px;
+  color: #c8c8c8;
+}
+
+/* Content Section */
+.card-content {
+  background-color: white;
+  padding: 16px;
+  text-align: center;
+  height: 100%;
+}
+
+.card-author {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+.card-description {
+  font-size: 17px;
+  margin-bottom: 16px;
+}
+
+.card-live {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 16px;
+}
+
+/* Register Button */
+.card-button {
+  background-color: white;
+  border: 2px solid #172b4d;
+  border-radius: 4px;
+  color: #172b4d;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  &:hover {
+    background-color: #172b4d;
+    color: white;
+  }
+}
+
+.date-and-time {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.description-and-button {
+  display: flex;
+  justify-content: space-between;
+}

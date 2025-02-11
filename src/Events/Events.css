@@ -1,0 +1,133 @@
+.event-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+/* Search Form */
+.event-container form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 800px;
+  height: 50px;
+}
+
+.event-container input[type="text"] {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.event-container button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.event-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Latest Events Section */
+.event-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.event-container ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.event-container li {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 15px 0;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.event-container li:hover {
+  transform: scale(1.05);
+}
+
+/* Event Date */
+.event-container .event-date {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+/* Event Heading */
+.event-container .event-heading a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.event-container .event-heading a:hover {
+  color: #007bff;
+}
+
+/* Event Title */
+.event-container .event-title {
+  font-size: 18px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Event Paragraph */
+.event-container .event-para {
+  font-size: 16px;
+  color: #777;
+  margin-top: 5px;
+}
+
+/* Event Detail Section */
+.event-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.event-container div h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.event-container div p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.event-container div a {
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.event-container div a:hover {
+  text-decoration: underline;
+}

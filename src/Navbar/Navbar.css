@@ -1,0 +1,107 @@
+/* Navbar.css */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato", Sans-serif;
+  /* max-width: 100%; */
+}
+.navbar {
+  background-color: white;
+  /* padding: 16px; */
+  display: flex;
+
+  align-items: center;
+}
+.nav-links {
+  list-style-type: none;
+  display: flex;
+
+  padding: 0;
+  margin: 0;
+  /* font-size: 35px; */
+  /* font-weight: bold; */
+}
+
+.nav-links li {
+  display: inline;
+  /* padding-left: 30px; */
+}
+.navicon {
+  display: flex;
+  margin-left: 80px;
+}
+
+.navlink {
+  margin-left: 20px;
+
+  filter: grayscale(100%) brightness(1.8);
+  transition: filter 0.3s ease-in-out;
+}
+.navlink:hover {
+  /* opacity: 1; */
+  filter: grayscale(0%) brightness(1);
+}
+#nav4 {
+  filter: grayscale(100%) brightness(3.5);
+  transition: filter 0.3s ease-in-out;
+}
+#nav4:hover {
+  filter: grayscale(0%) brightness(1);
+}
+/* @keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+
+/* Optional: If you want the hover effect to apply more clearly */
+.navlink img {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.navlink:hover img {
+  /* Ensure the icon is fully visible */
+  transform: scale(1.1);
+}
+
+.navbar {
+  display: flex;
+
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+  height: 70px;
+  /* padding: 0px 0px 10px 80px; */
+  margin: 0px 250px 0px 80px;
+  cursor: pointer;
+}
+.navlink img {
+  width: 30px;
+  display: flex;
+
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  font-size: 22px;
+  white-space: nowrap;
+}
+.nav-links a.active {
+  color: #ffaa00;
+}
+
+.nav-links a:hover {
+  color: #f5c357;
+}
